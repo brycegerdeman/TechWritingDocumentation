@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Connecting VSCode to Student Machine using SSH</title>
+  <title>Connecting VSCode to the Student Machine using SSH</title>
   <style>
     /* Add your CSS styles here */
     header {
       text-align: center;
       padding: 20px;
-      background-color: #f0f0f0;
+      background-color: #f0f0f0; /* Light gray background for the header */
     }
     .divider {
       border-top: 1px solid #ccc;
@@ -17,22 +17,16 @@
       width: 80%;
     }
     .columns {
-      display: flex;
-      justify-content: space-around;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
       padding: 20px;
     }
     .column {
-      flex: 1;
       padding: 10px;
       border: 1px solid #ccc;
-      margin: 0 10px;
-      text-align: left;
-    }
-    .column h2 {
-      font-size: 1.2em; /* Adjust the font size for headings */
-    }
-    .column p {
-      font-size: 0.9em; /* Adjust the font size for descriptions */
+      text-align: center;
+      background-color: #f0f0f0; /* Light gray background for the steps */
     }
   </style>
 </head>
@@ -45,39 +39,47 @@
 <div class="divider"></div>
 
 <div class="columns">
+  <!-- Step 1 -->
   <div class="column">
     <h2>Step 1</h2>
-    <p>Control Shift p or click the blue button on the bottom left corner</p>
+    <p>Click the blue button on the bottom left corner</p>
+    <img src="path_to_your_image_1.jpg" alt="Step 1 Image">
   </div>
+  <!-- Step 2 -->
   <div class="column">
     <h2>Step 2</h2>
     <p>Enter the following command: “Remote-SSH: Add New SSH Host…”</p>
+    <img src="path_to_your_image_2.jpg" alt="Step 2 Image">
   </div>
+  <!-- Step 3 -->
   <div class="column">
     <h2>Step 3</h2>
     <p>Click “+ Add New SSH Host”</p>
+    <img src="path_to_your_image_3.jpg" alt="Step 3 Image">
   </div>
-</div>
-
-<div class="columns">
+  <!-- Step 4 -->
   <div class="column">
     <h2>Step 4</h2>
     <p>Enter “ssh USERNAME@student2.cs.appstate.edu”</p>
+    <img src="path_to_your_image_4.jpg" alt="Step 4 Image">
   </div>
+  <!-- Step 5 -->
   <div class="column">
     <h2>Step 5</h2>
-    <p>POTENTIAL: click “Linux”</p>
+    <p>Click “Linux”</p>
+    <img src="path_to_your_image_5.jpg" alt="Step 5 Image">
   </div>
+  <!-- Step 6 -->
   <div class="column">
     <h2>Step 6</h2>
     <p>Press enter</p>
+    <img src="path_to_your_image_6.jpg" alt="Step 6 Image">
   </div>
-</div>
-
-<div class="columns">
+  <!-- Step 7 -->
   <div class="column">
     <h2>Step 7</h2>
     <p>Click the “Connect” button in the bottom right corner</p>
+    <img src="path_to_your_image_7.jpg" alt="Step 7 Image">
   </div>
 </div>
 
