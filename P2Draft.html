@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connecting VSCode to the Student Machine using SSH</title>
+  <style>
+    /* Add your CSS styles here */
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f0; /* Light gray background for the header */
+    }
+    .divider {
+      border-top: 1px solid #ccc;
+      margin: 20px auto;
+      width: 80%;
+    }
+    .columnssav {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .columnsav {
+        width: 30%; /* Set a fixed width for the columns */
+      box-sizing: border-box; /* Include padding and border in the width */
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin: 0 10px;
+      text-align: center;
+      background-color: #f0f0f0;
+
+    }
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+    .column {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+      background-color: #f0f0f0; /* Light gray background for the steps */
+    }
+    body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px; /* Add margin for spacing */
+        }
+
+        .faq-section {
+            width: 60%; /* Adjust the width as needed */
+        }
+
+        .question,
+        .answer {
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        .tips-section {
+            width: 30%; /* Adjust the width as needed */
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        .tips-text {
+            font-size: 16px; /* Adjust the font size as needed */
+            line-height: 1.4; /* Adjust the line height as needed */
+        }
+
+        .tips-list li {
+            margin-bottom: 10px; /* Add spacing between tips */
+        }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>How to connect VSCode to the Student Machine using SSH</h1>
+</header>
+
+<div class="divider"></div>
+
+<div class="columns">
+  <!-- Step 1 -->
+  <div class="column">
+    <h2>Step 1</h2>
+    <p>Look to menu bar on the left side</p>
+    <img src="path_to_your_image_1.jpg" alt="Step 1 Image">
+  </div>
+  <!-- Step 2 -->
+  <div class="column">
+    <h2>Step 2</h2>
+    <p>Go to the fifth icon down</p>
+    <img src="path_to_your_image_2.jpg" alt="Step 2 Image">
+  </div>
+  <!-- Step 3 -->
+  <div class="column">
+    <h2>Step 3</h2>
+    <p>Hover your cursor over the extension icon</p>
+    <img src="path_to_your_image_3.jpg" alt="Step 3 Image">
+  </div>
+  <!-- Step 4 -->
+  <div class="column">
+    <h2>Step 4</h2>
+    <p>Click on the extension icon</p>
+    <img src="path_to_your_image_4.jpg" alt="Step 4 Image">
+  </div>
+  <!-- Step 5 -->
+  <div class="column">
+    <h2>Step 5</h2>
+    <p>Click the search bar</p>
+    <img src="path_to_your_image_5.jpg" alt="Step 5 Image">
+  </div>
+  <!-- Step 6 -->
+  <div class="column">
+    <h2>Step 6</h2>
+    <p>Type “Remote - SSH”</p>
+    <img src="path_to_your_image_6.jpg" alt="Step 6 Image">
+  </div>
+  <!-- Step 7 -->
+  <div class="column">
+    <h2>Step 7</h2>
+    <p>Click on Remote - SSH extension</p>
+    <img src="path_to_your_image_7.jpg" alt="Step 7 Image">
+  </div>
+  <!-- Step 8 -->
+  <div class="column">
+    <h2>Step 8</h2>
+    <p>Hover your cursor over install icon</p>
+    <img src="path_to_your_image_8.jpg" alt="Step 8 Image">
+  </div>
+  <!-- Step 9 -->
+  <div class="column">
+    <h2>Step 9</h2>
+    <p>Click the install icon</p>
+    <img src="path_to_your_image_9.jpg" alt="Step 9 Image">
+  </div>
+</div>
+
+<!-- Rest of the content will be added in subsequent steps -->
+
+<div class="divider"></div>
+
+<header>
+    <h1>How to Make a Checkstyle XML File</h1>
+  </header>
+  
+  <div class="divider"></div>
+  
+  <div class="columnssav">
+    <div class="columnsav">
+      <h2>1. Right click on the leftmost panel</h2>
+      <img src="path_to_your_image_1.jpg" alt="Step 1 Image">
+    </div>
+    <div class="columnsav">
+      <h2>2. Select "New File" from the menu</h2>
+      <img src="path_to_your_image_2.jpg" alt="Step 2 Image">
+    </div>
+    <div class="columnsav">
+      <h2>3. Name your file with the filename and .xml tag</h2>
+      <img src="path_to_your_image_3.jpg" alt="Step 3 Image">
+    </div>
+  </div>
+  
+  <!-- Another row of the grid -->
+  <div class="columnssav">
+    <div class="columnsav">
+      <h2>4. Double click on the file to open it</h2>
+      <img src="path_to_your_image_4.jpg" alt="Step 4 Image">
+    </div>
+    <div class="columnsav">
+      <h2>5. Type in the version number as the first line </h2>
+      <img src="path_to_your_image_5.jpg" alt="Step 5 Image">
+    </div>
+    <div class="columnsav">
+      <h2>6. Insert the link to puppycrawl as the doc type</h2>
+      <p>The insertion is as follows for your convenience: "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_2.dtd"</p>
+      <img src="path_to_your_image_6.jpg" alt="Step 6 Image">
+    </div>
+  </div>
+  
+  <!-- Another row of the grid -->
+  <div class="columnssav">
+      <div class="columnsav">
+        <h2>7. Type in the general module name as "Checker"</h2>
+        <p>This is so that the processor knows the file is a checkstyle file</p>
+        <img src="path_to_your_image_4.jpg" alt="Step 7 Image">
+      </div>
+      <div class="columnsav">
+        <h2>8. Press enter</h2>
+        <img src="path_to_your_image_5.jpg" alt="Step 8 Image">
+      </div>
+      <div class="columnsav">
+        <h2>9. Press tab to insert new checks within the module</h2>
+        <img src="path_to_your_image_6.jpg" alt="Step 9 Image">
+      </div>
+    </div>
+  
+      <!-- Another row of the grid -->
+  <div class="columnssav">
+      <div class="columnsav">
+        <h2>10. Insert your first rule as a module named LineLength</h2>
+        <img src="path_to_your_image_4.jpg" alt="Step 10 Image">
+      </div>
+      <div class="columnsav">
+        <h2>11. Include a severity of error</h2>
+        <img src="path_to_your_image_5.jpg" alt="Step 11 Image">
+      </div>
+      <div class="columnsav">
+        <h2>12. Include a value to the severity</h2>
+        <img src="path_to_your_image_6.jpg" alt="Step 12 Image">
+      </div>
+    </div>
+  
+    <!-- Step 16 -->
+    <div class="row">
+      <div class="columnsav" style="width: 30%; margin: 0 auto;">
+        <h2>13. Visit the puppycrawl website to see which other checks you would like to implement</h2>
+        <p>https://checkstyle.sourceforge.io/checks.html</p>
+        <img src="path_to_your_image_7.jpg" alt="Step 13 Image">
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <h1>How to connect VSCode to the Student Machine using SSH</h1>
+  </header>
+  
+  <div class="divider"></div>
+  
+  <div class="columns">
+    <!-- Step 1 -->
+    <div class="column">
+      <h2>Step 1</h2>
+      <p>Click the blue button on the bottom left corner</p>
+      <img src="Util/BlueButtonSSH.png" alt="Step 1 Image">
+    </div>
+    <!-- Step 2 -->
+    <div class="column">
+      <h2>Step 2</h2>
+      <p>Enter the following command: “Remote-SSH: Add New SSH Host…”</p>
+      <img src="Util/ConnectToHost.png" alt="Step 2 Image">
+    </div>
+    <!-- Step 3 -->
+    <div class="column">
+      <h2>Step 3</h2>
+      <p>Click “+ Add New SSH Host”</p>
+      <img src="Util/+AddNewHost.png" alt="Step 3 Image">
+    </div>
+    <!-- Step 4 -->
+    <div class="column">
+      <h2>Step 4</h2>
+      <p>Enter “ssh USERNAME@student2.cs.appstate.edu”</p>
+      <img src="Util/SSH USER@student2.cs.appstate.edu.png" alt="Step 4 Image">
+    </div>
+    <!-- Step 5 -->
+    <div class="column">
+      <h2>Step 5</h2>
+      <p>Select “Linux”</p>
+      <img src="./Util/LinuxConnection.png" alt="Step 5 Image">
+    </div>
+    <!-- Step 6 -->
+    <div class="column">
+      <h2>Step 6</h2>
+      <p>Press enter</p>
+      <img src="Util/ConfigSSH.png" alt="Step 6 Image">
+    </div>
+    <!-- Step 7 -->
+    <div class="column">
+      <h2>Step 7</h2>
+      <p>Click the “Connect” button in the bottom right corner</p>
+      <img src="Util/ConnectButtonSSH.png" alt="Step 7 Image">
+    </div>
+    <!-- Step 8 -->
+    <div class="column">
+      <h2>Step 8</h2>
+      <p>Enter your password</p>
+      <img src="Util/EnterPassword.png" alt="Step 8 Image">
+    </div>
+  </div>
+</body>
+</html>
