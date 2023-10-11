@@ -136,10 +136,51 @@
 </style>
 </head>
 <body>
-    <a href="menu.html">Back to Menu</a>
+    <a class="scrollToTopButton" href="menu.html">Menu</a>
     
-    <!-- Specific content for each page goes here... -->
-
-    <!-- JavaScript function (scrollToTop) ... -->
+    <div class="header">
+        <h1 id="FAQ">FAQ</h1>
+      </div>
+    
+    <div class="container">
+        <div class="faq-section">
+            <div class="question">
+                <span class="label">Q:</span> What is SSH?
+            </div>
+            <div class="answer">
+                <span class="label">A:</span> SSH is a secure protocol used as the primary means of connecting to Linux servers remotely.
+            </div>
+            <br>
+            <div class="question">
+                <span class="label">Q:</span> What are some helpful extensions?
+            </div>
+            <div class="answer">
+                <span class="label">A:</span>  It depends on what you're working on! Each language has its own extension which is extremely useful. Development environments for languages like HTML are also very useful.
+            </div>
+            <br>
+            <div class="question">
+                <span class="label">Q:</span> Why do I choose Linux for the connection type?
+            </div>
+            <div class="answer">
+                <span class="label">A:</span> This is because that's the OS that is run on the student2 servers, as well as most of the other servers we have on campus.
+            </div>
+            <br>
+            <div class="question">
+                <span class="label">Q:</span> Can I do this in the terminal?
+            </div>
+            <div class="answer">
+                <span class="label">A:</span> You definitely can! You just type "ssh yourusername@student2.cs.appstate.edu"
+            </div>
+        </div>
+    
+        <div class="tips-section">
+            <h2>Tips</h2>
+            <ul class="tips-text tips-list">
+                <li>The command 'pwd' -> prints the path to your current directory</li>
+                <li>The command 'cd ~' -> Takes you to the home directory</li>
+                <li>The command 'cmd + shift + p' or 'ctrl + shift + p' -> Useful shortcuts in your development environment</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
