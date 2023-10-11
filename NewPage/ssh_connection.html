@@ -9,7 +9,7 @@
         header {
         text-align: center;
         padding: 20px;
-        background-color: #f0f0f0; /* Light gray background for the header */
+        background-color: #82b6c1; /* Light gray background for the header */
         }
         img {
         width:100%;
@@ -32,7 +32,7 @@
         border: 1px solid #ccc;
         margin: 0 10px;
         text-align: center;
-        background-color: #f0f0f0;
+        background-color: #82b6c1;
     
         }
         .columns {
@@ -45,7 +45,7 @@
         padding: 10px;
         border: 1px solid #ccc;
         text-align: center;
-        background-color: #f0f0f0; /* Light gray background for the steps */
+        background-color: #82b6c1; /* Light gray background for the steps */
         }
         body {
                 margin: 0;
@@ -75,7 +75,7 @@
     
             .question,
             .answer {
-                background-color: lightgray;
+                background-color: #82b6c1;
                 padding: 10px;
             }
     
@@ -85,7 +85,7 @@
     
             .tips-section {
                 width: 30%; /* Adjust the width as needed */
-                background-color: lightgray;
+                background-color: #82b6c1;
                 padding: 20px;
             }
     
@@ -107,7 +107,7 @@
                 padding: 20px;
                 border: 1px solid #ccc;
                 text-align: center;
-                background-color: #f5f5f5; /* Light grey background */
+                background-color: #82b6c1; /* Light grey background */
             }
             .boxmenu img {
             width:50%;
@@ -136,9 +136,68 @@
     </style>
     </head>
 <body>
-    <a href="menu.html">Back to Menu</a>
+    <a class = "scrollToTopButton" href="menu.html">Menu</a>
     
     <!-- Specific content for each page goes here... -->
+
+    <header>
+        <h1 id="SSH">How to connect VSCode to the Student Machine using SSH</h1>
+      </header>
+      
+      <div class="divider"></div>
+      
+      <div class="columns">
+        <!-- Step 1 -->
+        <div class="column">
+          <h2>Step 1. Click the blue button in the bottom left corner</h2>
+          <p>You can also enter "control shift p".</p>
+          <img src="Util/SSH/BlueButton.png" alt="Step 1 Image">
+        </div>
+        <!-- Step 2 -->
+        <div class="column">
+          <h2>Step 2. Enter the following command: </h2>
+          <p>“Remote-SSH: Connect to Host…”</p>
+          <img src="Util/SSH/ConnectToHost.png" alt="Step 2 Image">
+        </div>
+        <!-- Step 3 -->
+        <div class="column">
+          <h2>Step 3. Click “ + Add New SSH Host”</h2>
+          <p>. </p>
+          <img src="Util/SSH/+AddNewSSHHost...png" alt="Step 3 Image">
+        </div>
+        <!-- Step 4 -->
+        <div class="column">
+          <h2>Step 4. Enter “ssh USERNAME@student2.cs.appstate.edu”</h2>
+          <p>Replace USERNAME with your username.</p>
+          <img src="Util/SSH/SSH_USER.png" alt="Step 4 Image">
+        </div>
+        <!-- Step 5 -->
+        <div class="column">
+          <h2>Step 5. Select Linux</h2>
+          <p>Fun Fact: The student machine is Linux.</p>
+          <img src="./Util/SSH/LinuxConnection.png" alt="Step 5 Image">
+        </div>
+        <!-- Step 6 -->
+        <div class="column">
+          <h2>Step 6. Press Enter</h2>
+          <p>You can also chose to alter the configuration. </p>
+          <img src="Util/SSH/Config.png" alt="Step 6 Image">
+        </div>
+        <!-- Step 7 -->
+        <div class="column">
+          <h2>Step 7. Click the “Connect” button</h2>
+          <p>The connect button is in the bottom right corner.</p>
+          <img src="Util/SSH/ConnectButton.png" alt="Step 7 Image">
+        </div>
+        <!-- Step 8 -->
+        <div class="column">
+          <h2>Step 8. Enter your password: </h2>
+          <p>Visit the FAQ page for common passwords if you don't know.</p>
+          <img src="Util/SSH/Password.png" alt="Step 8 Image">
+        </div>
+      </div>
+    
+
 
     <!-- JavaScript function (scrollToTop) ... -->
 </body>
