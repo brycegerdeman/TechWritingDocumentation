@@ -33,18 +33,35 @@
             background-color: #82b6c1; /* Light grey background */
         }
         .columnsav h2 {
-            text-align: left; /* Left-align the step text */
+            text-align: center; /* Left-align the step text */
+        }
+        .columnsav p {
+            text-align: center; /* Left-align the step text */
         }
         .columnsav img {
-            float: right; /* Float the image to the right */
-            width: 50%;
-            height: auto;
+            float: right;
         }
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
         }
+        .scrollToTopButton {
+            position: fixed;
+            top: 20px;  /* Adjust the top value to your desired position */
+            left: 20px; /* Adjust the left value to your desired position */
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            z-index: 999; /* To ensure it's on top of other content */
+            }
+    
+            .scrollToTopButton:hover {
+            background-color: #0056b3; /* Hover background color */
+            }
     </style>
 </head>
 <body>
